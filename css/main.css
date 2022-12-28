@@ -1,0 +1,361 @@
+/* dropdownhover */
+@media only screen and (min-width: 767px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+body{
+    background-color: aliceblue;
+}
+/* navbar */
+.iconimg {
+    height: 50px;
+}
+
+.search_bar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 30px;
+    background-color: #353b48;
+    border-radius: 30px;
+    /* padding: 10px; */
+}
+
+.search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 27px;
+    transition: width 0.4s linear;
+}
+
+.search_bar:hover>.search_input {
+    padding: 0 10px;
+    width: 200px;
+    caret-color: red;
+    transition: width 0.4s linear;
+}
+
+.search_bar:hover>.search_icon {
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon {
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+
+.loginsec {
+    width: 15rem;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: rgb(196, 209, 16);
+}
+
+.searchmain {
+    width: 15rem;
+    display: flex;
+    justify-content: end;
+}
+
+
+.carousel {
+    width: 100%;
+    height: 32rem;
+}
+
+.imgdiv {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carouselImage {
+    width: 100%;
+    height: 100%;
+}
+
+.carouselButton{
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 2px 12px 4px 12px;
+    border: 1px solid white;
+    text-decoration: none;
+
+}
+
+.carouselButton:hover{
+    transition: all 0.5s;
+    color: black;
+    background-color: rgb(52, 112, 52);
+}
+
+
+
+/* categories */
+.categories{
+    height: 20rem;
+}
+.card{
+    width: 26%!important;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 992px) {
+    .categories{
+        height: 18rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .categories{
+        height: 15rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .categories{
+        height: 12rem;
+    }
+}
+.deepimg{
+    width: 100%;
+    height: 87%;
+}
+.card-button{
+    background-color: rgba(177, 16, 16, 0.89);
+    height: 13%;
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.card-button a{
+    text-decoration: none;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* padding: 2px 100px; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.card-button:hover{
+    background-color: black;
+    transition: all 0.5s
+}
+
+/* feature */
+.featureMain{
+    width: 100%;
+    height: 3rem;
+}
+.FeatureAll{
+    width: 32%;
+    height: 100%;
+    overflow: hidden;
+}
+.btnAll{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    /* background-color: rgba(177, 16, 16, 0.89); */
+}
+.color{
+    background-color: black;
+}
+.background{
+    background-color: rgba(177, 16, 16, 0.89);
+}
+.btnTopFeature{
+    padding: 15px 30px;
+    color: white;
+    border: none;
+}
+.btnSeller{
+    padding: 15px 30px;
+    color: white;
+    border: none;
+}
+/* .btnAll:focus, .btnTopFeature:focus, .btnSeller:focus{
+    background-color: black;
+} */
+.active{
+    background-color: black;
+}
+
+/* feature card */
+.box{
+    background-color: white;
+}
+.feature-cardbox1{
+    width: 24%;
+    height: 22rem; 
+    border: 1px solid;
+    overflow: hidden;
+}
+.feature-cardbox2{
+    width: 24%;
+    height: 22rem; 
+    border: 1px solid;
+    overflow: hidden;
+}
+.feature-cardbox3{
+    width: 24%;
+    height: 22rem; 
+    border: 1px solid;
+    overflow: hidden;
+}
+.feature-cardbox4{
+    width: 24%;
+    height: 22rem; 
+    border: 1px solid;
+    overflow: hidden;
+}
+.featurebox{
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.featurebox img{
+    margin-top: 10px;
+    width: 90%;
+    height: 90%;
+}
+.featurebox-text{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    margin: 0%;    
+    padding: 0px 12px;
+    margin: auto;
+}
+.featurebox-text p:hover{
+    color: tomato;
+    transition: all 0.25s;
+}
+.featureprice{
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    width: 14.7rem;
+}
+.featureprice:hover{
+    color: green;
+    transition: all 0.25s;
+}
+.place{
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    background-color: red;
+    padding: 5px 13px 7px;
+}
+
+/* blog */
+.blog{
+    margin-bottom: 20rem;
+}
+.bolgDiv{
+    background-color: #ffffff;
+    width: 32%;
+    height: 32rem;
+}
+.bolgDiv p{
+    padding: 0px 12px 0px 35px;
+    position: relative;
+}
+.blogBox{
+    width: 100%;
+    height: 65%;
+    background-color: blue;
+}
+.blogImg{
+    height: 100%;
+}
+.blogicon{
+    background-color: black;
+    position: absolute;
+    top: 148.5rem;
+    text-align: center;
+    width: 1.8rem;
+    height: 5.2rem;
+}
+.blogicon div{
+    padding: 2px;
+}
+.blogicon div:hover{
+    background-color: #e74c3c;
+    transition: all 0.35s;
+}
+.blogicon div a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.blogicon1{
+    background-color: black;
+    position: absolute;
+    top: 148.5rem;
+    text-align: center;
+    width: 1.8rem;
+    height: 5.2rem;
+}
+.blogicon1 div{
+    padding: 2px;
+}
+.blogicon1 div:hover{
+    background-color: #e74c3c;
+    transition: all 0.35s;
+}
+.blogicon1 div a{
+    color: white;
+    text-decoration: none;
+}
+
+.blogicon2{
+    background-color: black;
+    position: absolute;
+    top: 148.5rem;
+    text-align: center;
+    width: 1.8rem;
+    height: 5.2rem;
+}
+.blogicon2 div{
+    padding: 2px;
+}
+.blogicon2 div:hover{
+    background-color: #e74c3c;
+    transition: all 0.35s;
+}
+.blogicon2 div a{
+    color: white;
+    text-decoration: none;
+}
